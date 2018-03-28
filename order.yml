@@ -5,7 +5,7 @@ spring:
     config:
       discovery:
         enabled: true
-        service-id: CONFIG
+        service-id: config
       profile: test
 eureka:
   client:
