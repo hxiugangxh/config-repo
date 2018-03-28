@@ -12,3 +12,5 @@ eureka:
       defaultZone: http://localhost8761/eureka
 env:
   env
+label:
+  release
