@@ -6,6 +6,5 @@ spring:
     username: root
     password: test
     url: jdbc:mysql://192.168.10.151:3306/hxg?useSSL=true
-    schema: "classpath:data.sql"
 env:
   dev-hooks
