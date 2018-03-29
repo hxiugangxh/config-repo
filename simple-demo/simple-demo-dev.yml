@@ -5,4 +5,4 @@ spring:
     password: test
     url: jdbc:mysql://192.168.10.151:3306/hxg?useSSL=true
 env:
-  dev-hooks-file
+  dev-hooks-file-wenjianjia
