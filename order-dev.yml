@@ -5,4 +5,4 @@ spring:
     password: java_cbs_dev
     url: jdbc:mysql://db.test.yipicha.com:3306/hxg?useSSL=true
 env:
-  env-dev-dev
+  env-dev-hooks
