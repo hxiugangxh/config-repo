@@ -1,14 +1,10 @@
 spring:
   application:
-    name: order
+    name: simple-demo
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: java_cbs_dev
-    password: java_cbs_dev
-    url: jdbc:mysql://db.test.yipicha.com:3306/hxg?useSSL=true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost8761/eureka
+    username: root
+    password: test
+    url: jdbc:mysql://192.168.10.151:3306/hxg?useSSL=true
 env:
-  test
+  dev-hooks-sehhgf
