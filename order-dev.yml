@@ -1,8 +1,2 @@
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    username: java_cbs_dev
-    password: java_cbs_dev
-    url: jdbc:mysql://db.test.yipicha.com:3306/hxg?useSSL=true
 env:
   env-dev-hooks
