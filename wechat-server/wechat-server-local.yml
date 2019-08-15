@@ -52,4 +52,4 @@ outside.imagesPath: G:\
 # 发布域名
 service.domain: hxiugangwechat.natapp1.cc
 
-env: env
+env: test
