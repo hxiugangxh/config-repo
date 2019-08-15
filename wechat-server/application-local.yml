@@ -1,0 +1,83 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://47.110.46.159:8761/eureka
+  instance:
+    prefer-ip-address: true
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+    instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${spring.application.instance_id:${server.port}}
+    status-page-url-path: /
+
+spring:
+  session:
+    store-type: redis
+  application:
+    name: wechat-server
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3378/wechat-server?useSSL=false&allowMultiQueries=true&char&characterEncoding=UTF-8
+    username: root
+    password: root
+  redis:
+    password: msyos
+    host: 10.102.2.34
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  http:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 10240MB
+
+imooc.security:
+  browser:
+    #    signInResponseType: REDIRECT
+    signInSuccessUrl: http://localhost/index
+    signOutUrl: http://localhost/login
+    signUpUrl: http://localhost/signUp
+    signInPage: http://localhost/login
+    session:
+      sessionInvalidUrl: http://localhost/login
+
+logging:
+  level:
+    com.hxg.manage.dao.mapper: debug
+
+server:
+  session:
+    timeout: 3600000
+  port: 7083
+  context-path: /wechat-server
+
+outside.imagesPath: G:\
+# 发布域名
+service.domain: hxiugangwechat.natapp1.cc
+
+#wx:
+#  mp:
+#    configs:
+#      - appId: wxa41d05cada16e181
+#        secret: 7ae2128cd0986dc2bf413d7b5a2cba80
+#        token: hxiugang
+#        aesKey: jVIkgY20rVDxIaIAf3O8qByTHNX84pGhyiVa3NiAOQs
+#      - appId: wx0a2cf7f0d3cfaf2b #微信测试号
+#        secret: fb7865df65d55c35a7d22a0e13255b9b
+#        token: hxiugang
+#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
+#      - appId: wxa9585ed52ff85d7f #小号微信测试号
+#        secret: e18c77907be4ff76da5921f49b734409
+#        token: hxiugang
+#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
+#      - appId: wx59b056b64fa42485 #易光测试号
+#        secret: 10aebf7ee4ee5066275e960c2f589c90
+#        token: hxiugang
+#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
+#      - appId: wx65e6f264658a63aa #平和来斗阵
+#        secret: 2438fbfa684e89bb802542b4c70dfe2a
+#        token: hxiugang
+#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
