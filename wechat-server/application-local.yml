@@ -33,6 +33,11 @@ spring:
     multipart:
       max-file-size: 1024MB
       max-request-size: 10240MB
+  rabbitmq:
+    username: hxb
+    password: hxb
+    host: 192.168.44.56
+    port: 5672
 
 imooc.security:
   browser:
