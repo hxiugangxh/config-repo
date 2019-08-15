@@ -5,9 +5,9 @@ spring:
     password: root
     url: jdbc:mysql://127.0.0.1:3378/cloud?useSSL=true
   rabbitmq:
-    username: guest
-    password: guest
-    host: 47.110.46.159
+    username: hxb
+    password: hxb
+    host: 192.168.44.56
     port: 5672
 
 env:
