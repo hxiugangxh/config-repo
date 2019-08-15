@@ -52,26 +52,4 @@ outside.imagesPath: G:\
 # 发布域名
 service.domain: hxiugangwechat.natapp1.cc
 
-#wx:
-#  mp:
-#    configs:
-#      - appId: wxa41d05cada16e181
-#        secret: 7ae2128cd0986dc2bf413d7b5a2cba80
-#        token: hxiugang
-#        aesKey: jVIkgY20rVDxIaIAf3O8qByTHNX84pGhyiVa3NiAOQs
-#      - appId: wx0a2cf7f0d3cfaf2b #微信测试号
-#        secret: fb7865df65d55c35a7d22a0e13255b9b
-#        token: hxiugang
-#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
-#      - appId: wxa9585ed52ff85d7f #小号微信测试号
-#        secret: e18c77907be4ff76da5921f49b734409
-#        token: hxiugang
-#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
-#      - appId: wx59b056b64fa42485 #易光测试号
-#        secret: 10aebf7ee4ee5066275e960c2f589c90
-#        token: hxiugang
-#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
-#      - appId: wx65e6f264658a63aa #平和来斗阵
-#        secret: 2438fbfa684e89bb802542b4c70dfe2a
-#        token: hxiugang
-#        aesKey: vSD8GalvGYV4jXQJ70GpiWIpvrcPqzEaDM41rpDFRWr
+env: env
