@@ -23,9 +23,9 @@ spring:
       max-file-size: 1024MB
       max-request-size: 10240MB
   rabbitmq:
-    username: hxb
-    password: hxb
-    host: 192.168.44.56
+    username: guest
+    password: guest
+    host: 47.110.46.159
     port: 5672
 
 imooc.security:
