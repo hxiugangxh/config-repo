@@ -11,4 +11,4 @@ spring:
     port: 5672
 
 env:
-  dev-hooks-file-test-hooks111
+  dev-hooks-file-test-hooks
